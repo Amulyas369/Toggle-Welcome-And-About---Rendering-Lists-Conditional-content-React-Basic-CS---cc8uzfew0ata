@@ -1,9 +1,11 @@
 {
   "name": "react-boilerplate",
+  
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    
     "test": "cypress run  --headless --reporter mochawesome",
     "start": "webpack-dev-server --mode development --watch --open --hot --port=3000",
     "build": "webpack --mode production"
@@ -12,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
